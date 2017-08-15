@@ -1,0 +1,13 @@
+.appBar {
+  background-color: #383838;
+}
+
+.background {
+  background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/06/Free-grey-wallpaper-HD-background-download.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.textColor {
+  color: '#FFF'
+}
