@@ -1,5 +1,9 @@
-.appBar {
-  background-color: #383838;
+.backgroundDark {
+  background-color: #383838 !important;
+}
+
+.backgroundLight {
+  background-color: #FFF !important;
 }
 
 .background {
@@ -8,6 +12,15 @@
   background-size: cover;
 }
 
-.textColor {
+.headerColor {
   color: '#FFF'
+}
+
+.textColor {
+  color: '#101010'
+}
+
+.dark-toast{
+  background: #323232 !important;
+  color: #fff !important;
 }

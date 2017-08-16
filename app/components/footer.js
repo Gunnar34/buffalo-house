@@ -1,5 +1,6 @@
 import React from 'react';
 import{ Footer } from 'react-materialize';
+import Mash from '!!file!../images/mash.png';
 
 export default class BaseFooter extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ export default class BaseFooter extends React.Component {
       >
         <h5 className="white-text">The Buffalo House</h5>
         <p className="grey-text text-lighten-4">Make Sober Living A Lifetime Expierence</p>
+        <img src={Mash} />
       </Footer>
     );
   }

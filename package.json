@@ -22,13 +22,17 @@
     "jscs": "jscs ."
   },
   "dependencies": {
+    "axios": "^0.16.2",
     "babel-cli": "^6.4.0",
     "babel-core": "^6.22.1",
+    "body-parser": "^1.17.2",
     "file-loader": "^0.11.2",
+    "nodemailer": "^4.0.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-materialize": "^1.0.8",
     "react-router-dom": "^4.1.2",
+    "react-toastify": "^2.0.0-rc.3",
     "style-loader": "^0.12.4"
   },
   "devDependencies": {

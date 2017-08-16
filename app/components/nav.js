@@ -1,7 +1,7 @@
 import React from 'react';
 import{ NavItem, Navbar } from 'react-materialize';
 import Logo from '!!file!../images/buffaloIcon.png';
-import styles from '../styles/App.css';
+import '../styles/App.css';
 export default class Nav extends React.Component {
   constructor(props) {
     super(props);
@@ -9,7 +9,7 @@ export default class Nav extends React.Component {
   }
   render() {
     return (
-      <Navbar options={{menuWidth: 200}} className={styles.appBar} brand={<img style={{height: '64px'}} src={Logo} />} left>
+      <Navbar options={{menuWidth: 200}} className="backgroundDark" brand={<img style={{height: '64px'}} src={Logo} />} left>
         <NavItem href="/">Home Page</NavItem>
         <NavItem href="/team">Our Team</NavItem>
         <NavItem href="/program">Our Program</NavItem>
