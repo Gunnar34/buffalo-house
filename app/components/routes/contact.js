@@ -72,37 +72,34 @@ export default class Contact extends React.Component {
           <h1>Ready to Reach Out?</h1>
           <div className="row">
             <div className="col s12 backgroundLight">
-              <Row>
-                <Input
-                  s={6}
-                  label="First Name"
-                  value={this.state.first}
-                  onChange={this.handleFirstName} />
-                <Input
-                  s={6}
-                  label="Last Name"
-                  value={this.state.last}
-                  onChange={this.handleLastName}/>
-                <Input
-                  label="Phone"
-                  s={12}
-                  value={this.state.phone}
-                  onChange={this.handlePhone}/>
-                <Input
-                  type="email"
-                  label="Email"
-                  s={12}
-                  value={this.state.email}
-                  onChange={this.handleEmail}/>
-                <Input
-                  label="Message"
-                  s={12} multiple
-                  value={this.state.text}
-                  onChange={this.handleText}/>
-                <div className="col s12 center-align">
-                  <Button onClick={this.handleSubmit}  waves="light">Submit</Button>
-                </div>
-              </Row>
+              <Input
+                s={6}
+                label="First Name"
+                value={this.state.first}
+                onChange={this.handleFirstName}/>
+              <Input
+                s={6}
+                label="Last Name"
+                value={this.state.last}
+                onChange={this.handleLastName}/>
+              <Input
+                label="Phone"
+                s={12}
+                value={this.state.phone}
+                onChange={this.handlePhone}/>
+              <Input
+                label="Email"
+                s={12}
+                value={this.state.email}
+                onChange={this.handleEmail}/>
+              <Input
+                label="Message"
+                s={12} multiple
+                value={this.state.text}
+                onChange={this.handleText}/>
+              <div className="col s12 center-align">
+                <Button style={{marginBottom: '18px'}} className="grey darken-3" onClick={this.handleSubmit}  waves="light">Submit</Button>
+              </div>
             </div>
           </div>
         </div>
