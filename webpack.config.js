@@ -1,8 +1,8 @@
 'use strict';
 
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'eval-source-map',
@@ -34,7 +34,7 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel',
       query: {
-        "presets": ["react", "es2015", "stage-0", "react-hmre"]
+        'presets': ['react', 'es2015', 'stage-0', 'react-hmre']
       }
     }, {
       test: /\.json?$/,
@@ -46,7 +46,7 @@ module.exports = {
     // },
     {
       test: /\.css$/,
-      loader: "style-loader!css-loader"
+      loader: 'style-loader!css-loader'
     }]
   }
 };

@@ -69,9 +69,9 @@ export default class Contact extends React.Component {
     return (
       <div>
         <div className="container">
-          <h1>Ready to Reach Out?</h1>
+          <h1 className="textColor">Ready to Reach Out?</h1>
           <div className="row">
-            <div className="col s12 backgroundLight">
+            <div className="col s12 backgroundDark marginBottom">
               <Input
                 s={6}
                 label="First Name"
@@ -98,7 +98,7 @@ export default class Contact extends React.Component {
                 value={this.state.text}
                 onChange={this.handleText}/>
               <div className="col s12 center-align">
-                <Button style={{marginBottom: '18px'}} className="grey darken-3" onClick={this.handleSubmit}  waves="light">Submit</Button>
+                <Button style={{marginBottom: '18px'}} className="white darken-5 textBlack" onClick={this.handleSubmit}  waves="dark">Submit</Button>
               </div>
             </div>
           </div>

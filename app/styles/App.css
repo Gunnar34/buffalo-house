@@ -2,24 +2,31 @@
   background-color: #383838 !important;
 }
 
+.marginBottom {
+  margin-bottom: 10vh;
+}
+
 .backgroundLight {
-  background-color: #fff !important;
-  opacity: .4;
+  background-color: #CCCCCC !important;
   padding-top: 14px !important;
 }
 
 .background {
-  background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/06/Free-grey-wallpaper-HD-background-download.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: -webkit-linear-gradient(360deg, #1C1C1C 20%, #494949 360%);
+  background: -moz-linear-gradient(360deg, #1C1C1C 20%, #494949 360%);
+  background: linear-gradient(360deg, #1C1C1C 20%, #494949 360%);
 }
 
 .headerColor {
-  color: '#FFF'
+  color: #FFF
+}
+
+.textBlack {
+  color: #383838
 }
 
 .textColor {
-  color: '#101010'
+  color: #fff
 }
 
 a:hover {
@@ -33,28 +40,29 @@ a:hover {
 
 /* label color */
    .input-field label {
-     color: #777;
+     color: #FFF;
    }
    /* label focus color */
    .input-field input[type=text]:focus + label {
-     color: #424242;
+     color: #FFF;
    }
    /* label underline focus color */
    .input-field input[type=text]:focus {
-     border-bottom: 1px solid #424242;
-     box-shadow: 0 1px 0 0 #424242;
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
    }
    /* valid color */
    .input-field input[type=text].valid {
-     border-bottom: 1px solid #424242;
-     box-shadow: 0 1px 0 0 #424242;
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
    }
    /* invalid color */
    .input-field input[type=text].invalid {
-     border-bottom: 1px solid #424242;
-     box-shadow: 0 1px 0 0 #424242;
+     border-bottom: 1px solid #FFF;
+     box-shadow: 0 1px 0 0 #FFF;
    }
    /* icon prefix focus color */
    .input-field .prefix.active {
-     color: #424242;
+     color: #FFF;
+     /* color: #424242; */
    }

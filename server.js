@@ -57,7 +57,7 @@ if (isDeveloping) {
 app.post('/email', function prep(req, res) {
   const mailOptions = {
     from: '"' + req.body.first + ' ' + req.body.last + '" <' + authConfig.username + '>', // sender address
-    to: 'noahrolf1@gmail.com', // list of receivers
+    to: 'buffaloSoberHouse@gmail.com', // list of receivers
     subject: 'Buffalo House Contact', // Subject line
     text: req.body.text + 'thier email: ' + req.body.email + 'their phone: ' + req.body.phone, // plaintext body
     html: '<b>' + req.body.text + '<br/>' + 'thier email: ' +  req.body.email + '<br/>' + 'their phone: ' + req.body.phone + '</b>' // html body
@@ -72,7 +72,7 @@ app.post('/email', function prep(req, res) {
   });
 });
 
-app.listen(port, '0.0.0.0', function onStart(err) {
+app.listen(port, function onStart(err) {
   if (err) {
     console.log(err);
   }

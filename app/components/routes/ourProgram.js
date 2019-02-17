@@ -10,12 +10,12 @@ export default class Program extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col l4 s12">
+          <div className="col s12">
             <h2 style={{fontFamily: 'Oswald, sans-serif', color: '#FFF'}}>Our Program</h2>
             <div style={{backgroundColor: '#FFF'}} className="divider" />
             <ol style={{color: '#F4F4F4'}} className="flow-text">
               <li>
-                Attend one house meetings per week, which includes a 12 step big book study group.
+                Attend the weekly house meeting, which includes a 12 step big book study group.
               </li>
               <li>
                 Active participation in Alcoholic Anonymous, including at least four meetings weekly.
@@ -40,14 +40,14 @@ export default class Program extends React.Component {
               </li>
             </ol>
           </div>
-          <div className="col l8 s12">
+          <div className="col s12">
             <h2 style={{fontFamily: 'Oswald, sans-serif', color: '#FFF'}}>Our Mission</h2>
             <div style={{backgroundColor: '#FFF'}} className="divider" />
             <img style={{marginTop: 24.920, width: '90%'}} src={Img} />
             <p style={{color: '#F4F4F4'}} className="flow-text">
               The Buffalo House is about supporting the needs of our residents by providing a supportive
               healthy living environment that allows our residents the opportunity to become active
-              members in the recovering community as well as the surrounding community in which they
+              members in the recovery community as well as the surrounding community in which they
               will reside during their recovery. The Buffalo house provides its residents a sober
               supportive living environment in which they can draw knowledge, strength, and support
               from their peers.
